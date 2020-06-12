@@ -1,0 +1,9 @@
+name: 'Render Trigger Deploy'
+description: "Trigger a deploy using deploy hook on Render"
+inputs:
+  deplyHook:
+    description: "deployHook URL"
+runs:
+  using: 'node12'
+  main: 'main.js'
+  post: 'main.js'

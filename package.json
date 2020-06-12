@@ -1,0 +1,19 @@
+{
+  "name": "render-trigger-deploy",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [
+    "github action",
+    "render trigger deploy"
+  ],
+  "author": {
+    "name": "Yashu Mittal",
+    "email": "yashu@codecarrot.net"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4"
+  }
+}
